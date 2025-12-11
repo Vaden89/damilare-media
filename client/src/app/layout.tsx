@@ -28,6 +28,7 @@ const siteMetaData = {
   title: "Damilare Media",
   description:
     "Damilare Media - Creative and professional Media house capturing life's moments frame by frame",
+  url: "https://damilaremedia.com",
 };
 
 export const metadata: Metadata = {
@@ -35,6 +36,12 @@ export const metadata: Metadata = {
   description: siteMetaData.description,
   creator: "Isaac Shosanya",
   publisher: "Isaac Shosanya",
+  openGraph: {
+    title: siteMetaData.title,
+    description: siteMetaData.description,
+    url: siteMetaData.url,
+    type: "website",
+  },
 };
 
 export default function RootLayout({
