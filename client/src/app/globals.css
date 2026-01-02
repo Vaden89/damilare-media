@@ -10,9 +10,7 @@ button {
 }
 
 @theme inline {
-    --font-droid: var(--font-droid);
-    --font-sans: var(--font-geist-sans);
-    --font-mono: var(--font-geist-mono);
+    --font-oswald: var(--font-oswald);
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --font-space-grotesk: var(--font-space-grotesk);
