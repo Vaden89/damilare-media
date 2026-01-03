@@ -44,7 +44,7 @@ export const SocialLink = ({
       initial="rest"
       whileHover="hover"
       variants={containerVariants}
-      className="h-14 px-4 flex items-center justify-center bg-[#1F1E1E] rounded-full overflow-hidden"
+      className="h-14 px-4 flex items-center justify-center bg-[#50505020] rounded-full overflow-hidden"
     >
       <Icon />
       <motion.span variants={textVariants}>{text}</motion.span>

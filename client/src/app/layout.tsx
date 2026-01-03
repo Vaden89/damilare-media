@@ -41,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} ${oswald.variable} font-space-grotesk antialiased`}
+        className={`${spaceGrotesk.variable} ${oswald.variable} antialiased`}
       >
         {children}
       </body>

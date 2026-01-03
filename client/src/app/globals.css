@@ -7,6 +7,7 @@ button {
 :root {
     --background: #ffffff;
     --foreground: #171717;
+    --muted-background: #1f1e1e;
 }
 
 @theme inline {
@@ -14,6 +15,7 @@ button {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --font-space-grotesk: var(--font-space-grotesk);
+    --color-muted-background: var(--muted-background);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,5 +28,5 @@ button {
 body {
     background: var(--background);
     color: var(--foreground);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-space-grotesk), sans-serif;
 }

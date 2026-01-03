@@ -2,31 +2,9 @@
 import { Instagram, Mail, Twitter } from "lucide-react";
 import Image from "next/image";
 import { SocialLink } from "./social-link";
+import { socialData } from "@/data/social";
 
 export const Footer = () => {
-  const socialData = [
-    {
-      icon: Instagram,
-      text: "Instagram",
-      link: "https://instagram.com/daniel.skipii",
-    },
-    {
-      icon: Twitter,
-      text: "Twitter",
-      link: "https://twitter.com/daniel.skipii",
-    },
-    {
-      icon: Mail,
-      text: "Email",
-      link: "mailto:daniel.skipii@gmail.com",
-    },
-    {
-      icon: Instagram, // Assuming another Instagram link, or this could be a different social link
-      text: "Instagram",
-      link: "https://instagram.com/daniel.skipii",
-    },
-  ];
-
   return (
     <footer className="w-full flex flex-col min-h-dvh gap-5 items-center justify-between pt-10 pb-5 px-5">
       <Image
