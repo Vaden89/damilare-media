@@ -6,16 +6,12 @@ import { socialData } from "@/data/social";
 
 export const Footer = () => {
   return (
-    <footer className="w-full flex flex-col min-h-dvh gap-5 items-center justify-between pt-10 pb-5 px-5">
-      <Image
-        width={1300}
-        height={376}
-        src="/images/temp-2.jpg"
-        className="w-full h-1/3 rounded-4xl"
-        alt=""
-      />
-      <div className="w-fit">
-        <h2 className="text-[144px] font-droid leading-tight">
+    <footer className="w-full flex flex-col gap-16 items-center justify-between pt-10 pb-5 px-5 text-center">
+      <div className="w-full aspect-video relative">
+        <Image fill src="/images/temp-2.jpg" alt="" className="rounded-3xl" />
+      </div>
+      <div className="flex flex-col gap-16">
+        <h2 className="text-[48px] font-oswald text-white leading-tight">
           CONNECT WITH ME ANYWHERE
         </h2>
 

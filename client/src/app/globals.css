@@ -30,3 +30,12 @@ body {
     color: var(--foreground);
     font-family: var(--font-space-grotesk), sans-serif;
 }
+
+.hide-scroll {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}

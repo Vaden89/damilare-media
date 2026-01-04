@@ -11,7 +11,7 @@ export default function Home() {
       <AboutMeSection />
       <WhatWeCreateSection />
       <SelectedWorkSection />
-      {/*<Footer />*/}
+      <Footer />
     </>
   );
 }

@@ -81,7 +81,7 @@ const MobileMenu = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="bg-black w-full h-full flex flex-col justify-between pb-18 fixed top-0 right-0 pt-20"
+            className="bg-black w-full h-dvh flex flex-col justify-between pb-10 fixed top-0 right-0 pt-20 z-10"
           >
             <div className="p-4 border-t border-[#505050]">
               <ul className="flex flex-col gap-6">

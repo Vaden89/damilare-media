@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const HeroSection = () => {
   return (
-    <section className="w-full h-dvh flex flex-col pb-5 relative">
+    <section className="w-full h-screen flex flex-col pb-5 relative">
       <Image
         layout="fill"
         alt="Hero Image"
@@ -18,7 +18,7 @@ export const HeroSection = () => {
       <Navbar />
       <div className="w-full h-full flex flex-col justify-end p-4">
         <div className="flex flex-col">
-          <p className="leading-[130%] -tracking-[1%]">
+          <p className="leading-[130%] -tracking-[1%] text-lg">
             We are Damilare Media - a creative digital media house specializing
             in
           </p>

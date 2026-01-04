@@ -6,7 +6,7 @@ export const SelectedWorkSection = () => {
     <section className="w-full py-8 flex flex-col gap-4">
       <div className="flex flex-col px-4">
         <span className="font-oswald text-[40px]">Selected Work</span>
-        <p className="text-xl">
+        <p className="text-lg">
           Explore the gallery to experience moments and stories brought to life
           through creativity, perspective, and emotion.
         </p>
