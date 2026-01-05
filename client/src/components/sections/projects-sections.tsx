@@ -14,7 +14,7 @@ export const ProjectsSection = async () => {
   console.log(posts);
 
   return (
-    <section className="">
+    <section className="px-4">
       {[1, 2].map((item, index) => (
         <ProjectCard key={index} />
       ))}

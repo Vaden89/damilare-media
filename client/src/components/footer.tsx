@@ -1,12 +1,11 @@
 "use client";
-import { Instagram, Mail, Twitter } from "lucide-react";
 import Image from "next/image";
 import { SocialLink } from "./social-link";
 import { socialData } from "@/data/social";
 
 export const Footer = () => {
   return (
-    <footer className="w-full flex flex-col gap-16 items-center justify-between pt-10 pb-5 px-5 text-center">
+    <footer className="w-full flex flex-col gap-16 items-center justify-between pt-10 pb-5 px-4 text-center">
       <div className="w-full aspect-video relative">
         <Image fill src="/images/temp-2.jpg" alt="" className="rounded-3xl" />
       </div>

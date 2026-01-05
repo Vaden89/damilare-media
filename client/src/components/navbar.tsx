@@ -7,11 +7,14 @@ import { ArrowRight, Menu } from "lucide-react";
 import { menu } from "@/data/menu";
 import { socialData } from "@/data/social";
 import { SocialLink } from "./social-link";
+import Link from "next/link";
 
 export const Navbar = () => {
   return (
     <nav className="w-full h-24 px-4 sm:px-6 flex items-center justify-between">
-      <Image src="/images/logo.png" alt="Logo" width={24} height={24} />
+      <Link href="/">
+        <Image src="/images/logo.png" alt="Logo" width={24} height={24} />
+      </Link>
       <DesktopMenu />
       <MobileMenu />
     </nav>
@@ -81,7 +84,7 @@ const MobileMenu = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="bg-black w-full h-dvh flex flex-col justify-between pb-10 fixed top-0 right-0 pt-20 z-10"
+            className={`bg-black w-full h-svh flex flex-col justify-between pb-10 fixed top-0 right-0 pt-20 z-10`}
           >
             <div className="p-4 border-t border-[#505050]">
               <ul className="flex flex-col gap-6">

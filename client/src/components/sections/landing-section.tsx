@@ -20,7 +20,7 @@ export const LandingSection = () => {
   const [filter, setFilter] = useState("all");
 
   return (
-    <section className="w-full flex flex-col gap-4 mb-10">
+    <section className="w-full flex flex-col gap-4 mb-10 px-4">
       <header>
         <h1 className="font-oswald text-[48px] leading-[130%] -tracking-[1.5%]">
           Featured Projects <sup className="text-3xl">[5]</sup>

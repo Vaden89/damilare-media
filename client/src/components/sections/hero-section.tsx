@@ -5,12 +5,11 @@ import Link from "next/link";
 
 export const HeroSection = () => {
   return (
-    <section className="w-full h-screen flex flex-col pb-5 relative">
+    <section className="w-full h-svh flex flex-col pb-5 relative">
       <Image
-        layout="fill"
         alt="Hero Image"
+        fill
         objectFit="cover"
-        objectPosition="cover"
         src="/images/temp.jpg"
         className="-z-20"
       />
@@ -22,7 +21,7 @@ export const HeroSection = () => {
             We are Damilare Media - a creative digital media house specializing
             in
           </p>
-          <span className="text-[82px] -tracking-wide font-oswald leading-[130%]">
+          <span className="text-[5rem] -tracking-wide font-oswald leading-[130%]">
             Photography
           </span>
         </div>
