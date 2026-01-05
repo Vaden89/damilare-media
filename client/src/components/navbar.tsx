@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export const Navbar = () => {
   return (
-    <nav className="w-full h-24 px-4 sm:px-6 flex items-center justify-between">
+    <nav className="w-full h-20 px-4 sm:px-6 flex items-center justify-between border-b border-[#505050]">
       <Link href="/">
         <Image src="/images/logo.png" alt="Logo" width={24} height={24} />
       </Link>
