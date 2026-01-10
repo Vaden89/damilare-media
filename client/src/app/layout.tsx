@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Space_Grotesk, Oswald } from "next/font/google";
+import GlobalProvider from "@/contexts/provider";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -43,7 +44,7 @@ export default function RootLayout({
       <body
         className={`${spaceGrotesk.variable} ${oswald.variable} antialiased`}
       >
-        {children}
+        <GlobalProvider>{children}</GlobalProvider>
       </body>
     </html>
   );

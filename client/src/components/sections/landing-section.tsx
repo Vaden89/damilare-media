@@ -20,14 +20,13 @@ export const LandingSection = () => {
   const [filter, setFilter] = useState("all");
 
   return (
-    <section className="w-full flex flex-col gap-4 mb-10 px-4">
+    <section className="w-full flex flex-col gap-4 my-10 sm:my-5 px-4">
       <header>
         <h1 className="font-oswald text-[48px] leading-[130%] -tracking-[1.5%]">
           Featured Projects <sup className="text-3xl">[5]</sup>
         </h1>
       </header>
 
-      {/* Extracted Filter Component */}
       <WorkFilter activeValue={filter} onSelect={setFilter} />
 
       <div className="w-full h-[500px] relative sm:p-8 py-4 flex items-end justify-baseline overflow-hidden rounded-3xl">
