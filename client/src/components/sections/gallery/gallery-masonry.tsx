@@ -12,7 +12,7 @@ export const GalleryMasonry = () => {
           const styling = cn(
             "masonry-item bg-white relative",
             index % 2 === 0 ? "h-[350px]" : "h-[200px]",
-            // index % 3 === 0 ? "aspect-square" : "aspect-video",
+            index % 3 === 0 ? "lg:h-[350px]" : "lg:h-[200px]",
           );
 
           const val = index % 2 === 0 ? 1 : 4;
