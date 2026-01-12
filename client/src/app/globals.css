@@ -39,3 +39,12 @@ body {
 .hide-scroll::-webkit-scrollbar {
     display: none;
 }
+
+input,
+input:focus,
+input:active,
+textarea,
+textarea:focus,
+textarea:active {
+    outline: none;
+}

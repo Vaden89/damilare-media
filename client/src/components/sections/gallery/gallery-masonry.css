@@ -1,7 +1,7 @@
 .masonry-item {
     display: inline-block;
     width: 100%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
     break-inside: avoid;
     border-radius: 8px;
 }
