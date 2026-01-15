@@ -12,7 +12,7 @@ export const SelectedWorkSection = () => {
             life through creativity, perspective, and emotion.
           </p>
           <Link href="/gallery">
-            <button className="px-4 py-2 bg-[#1F1E1E] rounded-full">
+            <button className="px-4 py-2 bg-[#1F1E1E] rounded-full shrink-0">
               Explore Gallery
             </button>
           </Link>

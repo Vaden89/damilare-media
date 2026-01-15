@@ -10,19 +10,17 @@ button {
     --muted-background: #1f1e1e;
 }
 
+.dark {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+}
+
 @theme inline {
     --font-oswald: var(--font-oswald);
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --font-space-grotesk: var(--font-space-grotesk);
     --color-muted-background: var(--muted-background);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
-    }
 }
 
 body {
@@ -52,7 +50,7 @@ textarea:active {
 }
 
 .cards-container {
-    height: 95vh;
+    height: 100vh;
     display: flex;
     padding: 0px 5rem;
     position: relative;

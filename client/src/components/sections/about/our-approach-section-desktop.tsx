@@ -38,7 +38,7 @@ export const OurApproachSectionDesktop = () => {
   const spring = useSpring(transform, physics);
 
   return (
-    <div className="hidden sm:flex" ref={containerRef}>
+    <div className="hidden sm:block" ref={containerRef}>
       <div className="scroll-container">
         <motion.div
           ref={scrollRef}
@@ -46,7 +46,7 @@ export const OurApproachSectionDesktop = () => {
           className="cards-container"
         >
           <div className="cards">
-            <div className="w-fit mr-10">
+            <div className="mr-10">
               <span className="font-oswald text-[120px] font-extrabold leading-[90%]">
                 HOW WE <br /> APPROACH
               </span>

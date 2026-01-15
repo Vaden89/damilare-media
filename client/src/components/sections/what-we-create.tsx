@@ -13,13 +13,13 @@ export const WhatWeCreateSection = () => {
         </p>
       </div>
 
-      <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-2">
-        <div className="w-full aspect-square sm:aspect-auto h-full  bg-white rounded-2xl sm:row-span-2" />
+      <div className="w-full xl:max-h-dvh xl:py-10 grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <div className="w-full aspect-square h-full  bg-white rounded-2xl sm:row-span-2" />
         {[1, 2].map((item, index) => {
           return (
             <div
               key={index}
-              className={`w-full aspect-video bg-white rounded-2xl`}
+              className={`w-full h-full aspect-video  xl:aspect-auto bg-white rounded-2xl`}
             />
           );
         })}
