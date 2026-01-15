@@ -5,12 +5,11 @@ export const WhatWeCreateSection = () => {
         <span className="font-oswald text-[40px] leading-[130%] -tracking-[2%]">
           What We Create
         </span>
-        <p className="sm:text-lg">
-          We create visual work across photography, videography, and graphic
-          design—crafting stories for people, places, and brands with intention
-          and authenticity. Our work captures real moments and thoughtful
-          compositions that communicate meaning, emotion, and identity in a
-          timeless, cohesive way.
+        <p className="lg:text-lg">
+          Damilare Media creates story-driven photo, video and design content
+          for brands and individuals. From creative direction to final delivery,
+          We deliver content designed to connect, perform, and represent our
+          clients confidently across all platforms
         </p>
       </div>
 

@@ -26,7 +26,7 @@ const LandingSection = () => {
       />
       <DarkOverlay />
 
-      <div className="flex-1 flex w-full h-full flex-col justify-center text-center px-3">
+      <header className="flex-1 flex w-full h-full flex-col justify-center text-center px-3">
         <h1 className="text-[72px] sm:text-[120px] font-oswald tracking-tight">
           Contact Us
         </h1>
@@ -34,7 +34,7 @@ const LandingSection = () => {
           Have a project, idea, or question? Reach out we&apos;d love to hear
           from you
         </p>
-      </div>
+      </header>
     </section>
   );
 };

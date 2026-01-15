@@ -29,6 +29,8 @@ body {
     background: var(--background);
     color: var(--foreground);
     font-family: var(--font-space-grotesk), sans-serif;
+    overscroll-behavior: none;
+    -ms-overflow-style: none;
 }
 
 .hide-scroll {
@@ -47,4 +49,40 @@ textarea,
 textarea:focus,
 textarea:active {
     outline: none;
+}
+
+.cards-container {
+    height: 95vh;
+    display: flex;
+    padding: 0px 5rem;
+    position: relative;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+
+    > .cards {
+        height: 80%;
+        display: flex;
+        position: relative;
+        flex-direction: row;
+
+        > .card {
+            width: 354px;
+            padding: 1rem;
+            display: flex;
+            flex-shrink: 0;
+            flex-direction: column;
+            border: 1px solid #808080;
+            justify-content: space-between;
+        }
+    }
+}
+
+.scroll-container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    will-change: transform;
+    overflow-x: hidden;
 }

@@ -6,12 +6,12 @@ import { WhatWeCreateSection } from "@/components/sections/what-we-create";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <HeroSection />
       <AboutMeSection />
       <WhatWeCreateSection />
       <SelectedWorkSection />
       <Footer />
-    </>
+    </main>
   );
 }

@@ -14,7 +14,7 @@ export const ProjectCard = () => {
           </button>
         </div>
       </div>
-      <div className="w-full aspect-video relative sm:grayscale hover:grayscale-0 ease-in-out transition-all duration-300 cursor-pointer">
+      <div className="w-full aspect-square max-h-[400px] relative lg:grayscale hover:grayscale-0 ease-in-out transition-all duration-300 cursor-pointer">
         <Image
           src="/images/temp.jpg"
           alt="temp"

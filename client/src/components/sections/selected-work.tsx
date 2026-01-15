@@ -35,8 +35,7 @@ const PhotoGrid = () => {
         >
           <Image
             fill
-            objectFit="cover"
-            objectPosition="center"
+            className="object-cover"
             alt={`Selected work ${item}`}
             src={`/images/selected-works/${item}.jpg`}
           />

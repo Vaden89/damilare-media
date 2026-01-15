@@ -52,8 +52,7 @@ const LandingSection = () => {
           src="/images/temp-3.jpg"
           alt="Project 6"
           fill
-          objectFit="cover"
-          objectPosition="center"
+          className="object-cover"
         />
       </div>
     </section>

@@ -10,15 +10,14 @@ export const AboutLandingSection = () => {
         fill
         alt="about-image"
         src="/images/temp.jpg"
-        objectPosition="center"
         className="-z-10 grayscale object-cover"
       />
       <DarkOverlay />
-      <div className="flex-1 flex flex-col items-center justify-center ">
-        <span className="capitalize font-oswald text-[72px] -tracking-[4%]">
+      <header className="flex-1 flex flex-col items-center justify-center ">
+        <h1 className="capitalize font-oswald text-[72px] -tracking-[4%]">
           About Us
-        </span>
-      </div>
+        </h1>
+      </header>
     </section>
   );
 };

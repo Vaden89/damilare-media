@@ -29,7 +29,7 @@ export const LandingSection = () => {
 
       <WorkFilter activeValue={filter} onSelect={setFilter} />
 
-      <div className="w-full h-[500px] relative sm:p-8 py-4 flex items-end justify-baseline overflow-hidden rounded-3xl">
+      <div className="w-full h-[500px] relative md:p-2 lg:p-8 py-4 flex items-end justify-baseline overflow-hidden rounded-3xl">
         <Image
           src="/images/temp.jpg"
           alt="Featured project background"

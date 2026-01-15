@@ -12,30 +12,34 @@ export const OurApproachSection = () => {
 
   const approach = [
     {
-      title: "Understand Vision",
+      title: "Understand the Story",
       subText:
-        "We explore your goals to create a clear and concise vision statement.",
+        "We begin by understanding your vision and what you want to achieve, whether you’re a brand or an individual.",
     },
     {
-      title: "Define Objectives",
-      subText: "We break down your vision into measurable objectives.",
+      title: "Shape the Vision",
+      subText:
+        "We define a clear creative direction that aligns your vision, message, audience, and goals.",
     },
     {
-      title: "Develop Strategy",
-      subText: "We create a roadmap to achieve your objectives.",
+      title: "Create with Purpose",
+      subText:
+        "Through photography, videography, and graphic design, we create content that communicates meaning, not just aesthetics.",
     },
     {
-      title: "Execute Plan",
-      subText: "We implement your strategy and monitor progress.",
+      title: "Refine with Care",
+      subText:
+        "Every detail is reviewed and refined to ensure the final work aligns with the story/vision.",
     },
     {
-      title: "Review & Adjust",
-      subText: "We regularly review and adjust your plan to ensure success.",
+      title: "Delivery",
+      subText:
+        "We deliver content designed to connect, perform, and represent you confidently across all platforms.",
     },
   ];
 
   return (
-    <section className="w-full flex flex-col sm:flex-row gap-4 px-4 md:px-10 lg:px-16 my-5 mb-20 ">
+    <section className="w-full flex sm:hidden flex-col sm:flex-row gap-4 px-4 md:px-10 lg:px-16 my-5 mb-20 ">
       <span className="text-[40px] leading-[130%] tracking-[-2%] font-oswald shrink-0">
         Our Approach
       </span>

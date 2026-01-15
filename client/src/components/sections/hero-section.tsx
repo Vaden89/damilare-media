@@ -1,7 +1,7 @@
+import Link from "next/link";
 import Image from "next/image";
 import { Navbar } from "../navbar";
 import { DarkOverlay } from "../dark-overlay";
-import Link from "next/link";
 import { WordSwitch } from "../common/word-switch";
 
 export const HeroSection = () => {
@@ -18,12 +18,12 @@ export const HeroSection = () => {
       />
       <DarkOverlay />
       <Navbar />
-      <div className="w-full flex flex-col justify-end p-4">
+      <header className="w-full flex flex-col justify-end p-4">
         <div className="flex flex-col">
-          <p className="leading-[130%] -tracking-[1%] text-lg">
+          <h1 className="leading-[130%] -tracking-[1%] text-lg">
             We are Damilare Media - a creative digital media house specializing
             in
-          </p>
+          </h1>
           <div className="text-[5rem] -tracking-wide font-oswald leading-[130%] h-fit overflow-hidden">
             <WordSwitch words={words} />
           </div>
@@ -33,7 +33,7 @@ export const HeroSection = () => {
             Browse Projects
           </button>
         </Link>
-      </div>
+      </header>
     </section>
   );
 };
